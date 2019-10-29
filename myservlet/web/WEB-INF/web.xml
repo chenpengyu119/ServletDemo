@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!--全局有效 context-->
+    <context-param>
+        <param-name>jdbc_property</param-name>
+        <param-value>mysql</param-value>
+    </context-param>
+
+    <!--DoLoginServlet-->
+    <servlet>
+        <servlet-name>DoLoginServlet</servlet-name>
+        <servlet-class>com.bjsxt.servlet.DoLoginServlet</servlet-class>
+    </servlet>
+
+    <!--LifeServlet-->
+    <servlet>
+        <servlet-name>LifeServlet</servlet-name>
+        <servlet-class>com.bjsxt.servlet.LifeServlet</servlet-class>
+        <!--设置为服务器启动时加载，即饿汉式 数字表示启动顺序-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!--ParamServlet-->
+    <servlet>
+        <servlet-name>ParamServlet</servlet-name>
+        <servlet-class>com.bjsxt.servlet.ParamServlet</servlet-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+    </servlet>
+
+    <!--FirstServlet-->
+    <servlet>
+        <servlet-name>FirstServlet</servlet-name>
+        <servlet-class>com.bjsxt.servlet.FirstServlet</servlet-class>
+    </servlet>
+
+    <!--ForwardServlet-->
+   <!-- <servlet>
+        <servlet-name>ForwardServlet</servlet-name>
+        <servlet-class>com.bjsxt.servlet.ForwardServlet</servlet-class>
+    </servlet>-->
+    
+
+    <!--DoLoginServlet-->
+    <servlet-mapping>
+        <servlet-name>DoLoginServlet</servlet-name>
+        <url-pattern>/servlet/DoLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--LifeServlet-->
+    <servlet-mapping>
+        <servlet-name>LifeServlet</servlet-name>
+        <url-pattern>/servlet/LifeServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--ParamServlet-->
+    <servlet-mapping>
+        <servlet-name>ParamServlet</servlet-name>
+        <url-pattern>/servlet/ParamServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--FirstServlet-->
+    <servlet-mapping>
+        <servlet-name>FirstServlet</servlet-name>
+        <url-pattern>/servlet/FirstServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--ForwardServlet-->
+    <!--<servlet-mapping>
+        <servlet-name>ForwardServlet</servlet-name>
+        <url-pattern>/servlet/ForwardServlet</url-pattern>
+    </servlet-mapping>-->
+</web-app>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <script type="text/javascript" src="../js/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#showpwd").click(function () {
+                var pwd = $("#pwd");
+                if (pwd.attr("type") === "text") {
+                    pwd.attr("type","password");
+                }else {
+                    pwd.attr("type","text");
+                }
+
+            })
+        })
+
+    </script>
+</head>
+<body>
+<h3>用户登录</h3>
+<form action="doLogin.jsp" method="post">
+
+    用户名:<input type="text" name="uname"><br>
+    密码:<input type="password" id="pwd" name="pwd"> <input id="showpwd" type="button" value="显示密码" >
+    <br>
+    <input type="submit" value="登录">
+</form>
+</body>
+</html>

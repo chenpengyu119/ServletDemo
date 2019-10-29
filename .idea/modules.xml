@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/05-session/05-session.iml" filepath="$PROJECT_DIR$/05-session/05-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Jsp/08-Jsp.iml" filepath="$PROJECT_DIR$/08-Jsp/08-Jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-EL/10-EL.iml" filepath="$PROJECT_DIR$/10-EL/10-EL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletDemo.iml" filepath="$PROJECT_DIR$/ServletDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotationtest/annotationtest.iml" filepath="$PROJECT_DIR$/annotationtest/annotationtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clothesmgr/clothesmgr.iml" filepath="$PROJECT_DIR$/clothesmgr/clothesmgr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatern/designpatern.iml" filepath="$PROJECT_DIR$/designpatern/designpatern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enployeemanage/enployeemanage.iml" filepath="$PROJECT_DIR$/enployeemanage/enployeemanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsp01/jsp01.iml" filepath="$PROJECT_DIR$/jsp01/jsp01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myAjax/myAjax.iml" filepath="$PROJECT_DIR$/myAjax/myAjax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myservlet/myservlet.iml" filepath="$PROJECT_DIR$/myservlet/myservlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recruitment/recruitment.iml" filepath="$PROJECT_DIR$/recruitment/recruitment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rememberpwdusingcookies/rememberpwdusingcookies.iml" filepath="$PROJECT_DIR$/rememberpwdusingcookies/rememberpwdusingcookies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring01/spring01.iml" filepath="$PROJECT_DIR$/spring01/spring01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyse/studyse.iml" filepath="$PROJECT_DIR$/studyse/studyse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stumgr/stumgr.iml" filepath="$PROJECT_DIR$/stumgr/stumgr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxtoa/sxtoa.iml" filepath="$PROJECT_DIR$/sxtoa/sxtoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updownload2/updownload2.iml" filepath="$PROJECT_DIR$/updownload2/updownload2.iml" />
+    </modules>
+  </component>
+</project>

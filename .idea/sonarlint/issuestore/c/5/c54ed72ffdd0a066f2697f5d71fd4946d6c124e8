@@ -1,0 +1,10 @@
+
+ksquid:S2095""OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·ë¡ãøÿÿÿÿ
+Esquid:S1481 ")Remove this unused "loop" local variable.(­Çôûÿÿÿÿ
+csquid:S001128"FDefine and throw a dedicated exception instead of using a generic one.(Ê“Åıÿÿÿÿ
+Ysquid:UselessImportCheck"6Remove this unused import 'com.bjsxt.entity.Employee'.(äéæk
+?squid:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148/"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+?squid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Psquid:S11438"4Remove this throw statement from this finally block.(Ê“Åıÿÿÿÿ
+Ysquid:S11638"=Refactor this code to not throw exceptions in finally blocks.(Ê“Åıÿÿÿÿ
